@@ -1,0 +1,222 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+   background: #498042;
+   display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    min-height: 1100px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0px 35px 55px rgba(0,0,0,0.1);
+}
+
+.container .left_Side
+{
+    position: relative;
+    background: #8dd883;
+    padding: 40px;
+} 
+
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.profileText .ImgBx
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileText .ImgBx img
+{
+    position: absolute;
+    Top: 0;
+    Left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.profileText h2
+{
+   font-size: 1.5em;
+   margin-top: 20px;
+
+}
+
+.profileText h2 span
+{
+   font-size: 0.8em;
+   font-weight: 300;
+   margin-top: 50px;
+   
+}
+
+.contactInfo
+{
+    padding-top: 40px;
+}
+
+.title
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contactInfo ul
+{
+    position: relative;
+}
+
+.contactInfo ul li
+{
+    position: relative;
+    list-style-type: none;
+    margin: 10px 0;
+    margin-bottom: 15px;
+}
+
+.contactInfo ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+}
+
+.contactInfo ul li span
+{
+    font-weight: 300;
+}
+
+
+.contactInfo.EduInfo li 
+{
+    margin-bottom: 15px;
+}
+
+.contactInfo.EduInfo h5
+{
+    font-weight: 500;
+    letter-spacing: 0.5px;
+
+}
+
+.contactInfo.EduInfo h4
+{
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.contactInfo.EduInfo h6
+{
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.contactInfo.Skill .percent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #000000;
+    display: block;
+    margin-top: 5px;
+}
+
+.contactInfo.Skill .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #fff;
+}
+
+.container .right_Side
+{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.about
+{
+    margin-bottom: 50px;
+    letter-spacing: 1.5px;
+
+}
+
+.about:last-child
+{
+    margin-bottom: 0px;
+}
+
+.titlesec
+{
+    color: #498042;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin-bottom: 10px;
+}
+
+.about .square
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    margin-bottom: 50px;
+    font-size: large;
+}
+
+.about .square .yearcomp
+{
+
+    min-width: 250px;
+}
+
+.about .square .desc li
+{
+    margin-bottom: 20px;
+    font-size: medium;
+}
+
+.about .square .desc ul
+{
+    margin-bottom: 15px;
+}
+
+.about .square .desc h4
+{
+    margin-bottom: 15px;
+}
+
+
+
