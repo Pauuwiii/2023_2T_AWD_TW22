@@ -13,6 +13,7 @@ body
     justify-content: center;
     align-items:center;
     min-height: 100vh;
+    transition: background-color 0.5s;
 }
 
 .container
@@ -33,6 +34,7 @@ body
     position: relative;
     background: #8dd883;
     padding: 40px;
+    transition: background-color 0.5s;
 } 
 
 .profileText
@@ -185,6 +187,7 @@ body
     text-transform: uppercase;
     letter-spacing: 2.5px;
     margin-bottom: 10px;
+    transition: background-color 0.5s;
 }
 
 .about .square
@@ -218,5 +221,8 @@ body
     margin-bottom: 15px;
 }
 
-
-
+#colorChangeButton {
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+}
