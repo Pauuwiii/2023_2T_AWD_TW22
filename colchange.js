@@ -1,3 +1,6 @@
+var colorIndex = 0;
+    var colors = ["green", "blue", "red"];
+
 function changeColors() {
     const body = document.body;
     var leftSide = document.querySelector('.container .left_Side');
@@ -11,4 +14,5 @@ function changeColors() {
 
     body.style.backgroundColor = bgColor;
     var element = document.getElementById("colorChangeButton");
+    colorIndex = (colorIndex + 1) % colors.length;
 }
