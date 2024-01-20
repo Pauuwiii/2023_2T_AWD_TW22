@@ -5,8 +5,8 @@ function changeColors() {
 
 
     // Generate random RGB values for background color
-    const bgColor = '#2E4F4F';
-    leftSide.style.backgroundColor = '#CBE4DE';
+    const bgColor = ['#2E4F4F','#F8E559'];
+    leftSide.style.backgroundColor = ['#CBE4DE','#FAEF9B'];
     titlesec.style.color = 'black';
 
     body.style.backgroundColor = bgColor;
